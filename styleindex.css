@@ -1,0 +1,88 @@
+/* Style untuk halaman utama, formulir, dan tabel */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: block;
+    padding: 30px;
+    background: #190482;
+  }
+
+header h1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  line-height: 0;
+  margin-bottom: 50px;
+}
+
+header h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 0;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.p{
+    text-align: center;
+}
+p{
+    max-width: 1200px;
+    text-align: justify;
+    margin: auto;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #7752FE;
+  }
+  
+  /* Style navigasi bar */
+nav a {
+    float: left;
+    color: #f2f2f2; /* untuk warna font */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  nav a:hover {
+    background-color: #8E8FFA; /* untuk merubah warna pada saat link di sentuh/di klik */
+    color: rgb(2, 2, 2); /* warna pada hover */
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color:#190482;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
